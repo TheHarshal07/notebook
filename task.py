@@ -10,8 +10,9 @@
 
 # tabula.convert_into("hdfc.pdf", "Generatehdfc.csv", pages="all", output_format="csv")
 
-import pdftables_api
+import pdftables
+print(dir(pdftables))
 
-conversion = pdftables_api.Client('tt77exakdbhk')
+# conversion = pdftables_api.Client('tt77exakdbhk')
 
-conversion.csv('hdfc.pdf', 'aaa.csv')
+# conversion.csv('hdfc.pdf', 'aaa.csv')
